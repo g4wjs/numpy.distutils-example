@@ -9,11 +9,16 @@ To test:
 python3
 >>> import fmod
 >>> print (fmod.fmod.fib (8))
+```
 
 To package:
-''' pyinstaller main.py
+```
+pyinstaller main.py
+```
 
 To test packaged executable:
-```./dist/main/main
+```
+./dist/main/main
+```
 
 That's all folks!
